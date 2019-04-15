@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wayne Morrissey Portfolio</title> <!-- Good semantic title for page content or app name-->
+    <!-- <link rel="stylesheet" href="css/reboot.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+    <!-- CSS links after the title and before any js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#" id="brand">Wayne Morrissey</a>
+        <button class="navbar-toggler" style="width: 56px; height: 40px" type="button" data-toggle="collapse" data-target="#navbarSearch" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-search"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu"">
+            <div class="navbar-nav m-auto mt-2 mt-lg-0">
+                <a id="navlink" class="nav-item nav-link mx-2" href="#">Web</a>
+                <a id="navlink" class="nav-item nav-link mx-2" href="#">JavaScript</a>
+                <a id="navlink" class="nav-item nav-link mx-2" href="#">.NET</a>
+                <a id="navlink" class="nav-item nav-link mx-2" href="#">Java</a>
+                <a id="navlink" class="nav-item nav-link mx-2" href="#">Games</a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSearch">
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container header-container">
+            <div class="row justify-content-center">
+                <div class="header-image-wrapper col-md-6">
+                    <img src="img/programmer.svg" alt="" srcset="">
+                </div>
+                <div class="header-content-wrapper col-md-6 text-center">
+                    <div class="header-branding">
+                        <p class="title">Wayne Morrissey</p>
+                        <p class="tagline">Full-stack Developer</p>
+                    </div>
+                    <ul class="header-icon-links w-80 d-flex mx-auto justify-content-around">
+                        <li class="header-icon-link"><a class="header-icon-a" href=""><i class="fab fa-twitter-square"></i></a></li>
+                        <li class="header-icon-link"><a class="header-icon-a" href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li class="header-icon-link"><a class="header-icon-a" href=""><i class="fas fa-envelope"></i></a></li>
+                        <li class="header-icon-link"><a class="header-icon-a" href=""><i class="fab fa-github"></i></a></li>
+                        <li class="header-icon-link"><a class="header-icon-a" href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li class="header-icon-link"><a class="header-icon-a" href=""><i class="fab fa-codepen"></i></a></li>
+                    </ul>
+                    <ul class="header-links row">
+                        <li class="header-link col-md-4 offset-md-2"><a class="header-link-a" href="">Qualifications</a></li>
+                        <li class="header-link col-md-4"><a class="header-link-a" href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content-flex row">
+                <div class="content-wrapper col-md-6 col-lg-3">
+                    <div class="content d-flex flex-column">
+                        <div class="content-header">
+                            <i class="fab fa-js-square"></i>
+                            <h2>Front-end Web Development</h2>
+                        </div>
+                        <p>&emsp;Projects that showcase front end web development skills through the use of HTML5, CSS, JavaScript and JS libraries like JQuery and React to create responsive web sites and front end applications with the ability to communicate and share data with a backend web service endpoint.</p>
+                        <button type="button" class="btn btn-light d-block mt-auto mx-auto">See More</button>
+                    </div>
+                </div>
+                <div class="content-wrapper col-md-6 col-lg-3">
+                    <div class="content d-flex flex-column">
+                        <div class="content-header">
+                            <i class="fab fa-java"></i>
+                            <h2>Back-end App Development</h2>
+                        </div>
+                        <p>&emsp;Projects that showcase back end app development skills through the use of the .Net Framework, Spring Framework and Java Enterprise Edition. Applications are created with the ability to act as a web service endpoint(both SOAP web services and RESTful web services) and communicate with both front end applications and SQL databases to manage data through entity based transactions.</p>
+                        <button type="button" class="btn btn-light d-block mt-auto mx-auto">See More</button>
+                    </div>
+                </div>
+                <div class="content-wrapper col-md-6 col-lg-3">
+                    <div class="content d-flex flex-column">
+                        <div class="content-header">
+                            <i class="fas fa-database"></i>
+                            <h2>SQL Database Development</h2>
+                        </div>
+                        <p>&emsp;Projects that showcase SQL database development skills through the creation and management of secure and efficient databases in Microsoft SQL Server, MySQL / MariaDB, and Oracle.</p>
+                        <button type="button" class="btn btn-light d-block mt-auto mx-auto">See More</button>
+                    </div>
+                </div>
+                <div class="content-wrapper col-md-6 col-lg-3">
+                    <div class="content d-flex flex-column">
+                        <div class="content-header">
+                            <i class="fas fa-gamepad"></i>
+                            <h2>Video Game Development</h2>
+                        </div>
+                        <p>&emsp;Projects that showcase game development skills through the creation of 3D and 2D games accross multiple platforms, using engines such as Unity3D and Unreal Engine. Games are coded in c# and C++ respectively, and include some visual assets made by myself in MayaLT and / or Photoshop, as well as free assests where available.</p>
+                        <button type="button" class="btn btn-light d-block mt-auto mx-auto">See More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/menu/menu.js"></script>
+
+
+</body>
+</html>

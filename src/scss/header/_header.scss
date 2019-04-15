@@ -1,0 +1,48 @@
+.page-header {
+
+    .header-container {
+        background-image: linear-gradient( to bottom, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, .5) 90%);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .title{
+        font-weight: 800;
+        font-size: 4rem;
+        line-height: 4rem;
+        text-shadow: 3px 3px #333;
+        color: $red;
+    }
+
+    .header-link-a {
+        font-size: 1.125rem;
+        color: $red;
+
+        &:hover {
+            color: $hover;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+
+    .tagline {
+        font-size: 1.5rem;
+    }
+
+    .header-branding {
+        padding-top: 20%;
+        font-family: 'Share', cursive;
+    }
+
+    .header-icon-links {
+        font-size: 2rem;
+    }
+
+    .header-icon-a {
+        color:red;
+
+        &:hover {
+            color: $hover;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.mobile-sub-menu{
+    position: fixed;
+    top:3rem;
+    background:#fff;
+    padding: 1rem;
+    width:100%;
+    height:45vh;
+    top: -45vh;
+    border-bottom:2px solid grey;
+
+    h2{
+        color: #fff;
+        background-color: rgb(41, 41, 41);
+        padding: .8rem;
+    }
+
+    .mobile-menu-links a{
+        font-weight: 600;
+
+        li{
+            padding: .5rem;
+            background-color: #fff;
+            color: rgb(190, 0, 0);
+        }
+
+        &:nth-child(even) li{
+            background-color: rgb(190, 0, 0);
+            color: white;
+        }
+
+        &:hover{
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+}
+
+.mobile-settings-menu{
+    position:fixed;
+    top:48px;
+    right:0;
+    background:#fff;
+    width: 17rem;
+    box-shadow:  0 0 5px 0 rgb(192, 192, 192);
+
+    h2{
+        padding-left: .5rem;
+        padding-top: .5rem;
+    }
+
+    .mobile-search{   
+        padding: .5rem;
+        display: flex;
+
+        input{
+            margin-right: .5rem;
+        }
+    }
+}
